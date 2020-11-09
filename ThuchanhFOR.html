@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành for</title>
+</head>
+<body>
+<input type="button" value="Bài thực hành 1" onclick="thuchanh1()">
+<input type="button" value="Bài thực hành 2" onclick="thuchanh2()">
+<script>
+    function thuchanh1() {
+    for(i=0;i<5;i+=1) {
+    document.write('Con số là' + i + "<br>")
+        }
+    }
+    function thuchanh2(){
+        let num = prompt('Nhập số bất kỳ: ');
+        let total=0;
+        for(i=1;i<= +num;i++) {
+            total += i
+        }
+            alert(total);
+    }
+</script>
+</body>
+</html>
